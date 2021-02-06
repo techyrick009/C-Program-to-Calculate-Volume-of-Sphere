@@ -1,0 +1,39 @@
+/*
+ * 1000+ C programs + tutorials
+ *
+ *
+ * 14_calculate_volume_of_sphere.c
+ *
+ *
+ *  Created on: Oct 20, 2014
+ *  Author: techyrick.com
+ */
+
+#include <stdio.h>
+//#include <conio.h>
+
+void main() {
+
+    int radius;
+    float volume_of_sphere;
+    float PI = 3.142;
+
+//	clrscr();
+
+	printf(" Program to calculate Volume of a Sphere :  ");
+
+	printf("\n\n Enter the Radius of Sphere : ");
+	scanf("%d", &radius);
+    
+    
+    
+    volume_of_sphere = (4/3)*(PI*radius*radius*radius);
+
+
+	printf("\n\n Volume of Sphere with Radius as %d = %f",radius,volume_of_sphere);
+
+//	getch();
+
+
+
+}
